@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+css style- .header {
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0.8rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 4rem;
+}
+
+.logoName {
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    /* margin: 4rem; */
+}
+
+.navbar {
+    /* position: relative; */
+
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    margin-left: 4.5rem;
+    color: black;
+    /* padding-left: 4rem; */
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    /* padding-bottom: 2rem; */
+}
+
+.navbar a:active::after,
+.navbar a:hover::after {
+    content: "";
+    width: 60%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    bottom: -2px;
+    left: 6px;
+}
+.icon{
+    margin: 1rem;
+}
+
+.icon i {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.search {
+    display: none;
+    top: 100%;
+    margin: 1.5rem 7%;
+    background-color: transparent;
+    width: 50%;
+    right: 0;
+    height: 5rem;
+    position: absolute;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  }
+  .header1{
+    height: 10rem;
+  }
+  #flavour{
+    display: flex;
+  }
+ #flavour .flavour2{
+    width:50%;
+  }
+ #flavour .flavour3{
+    width:50%;
+  }
+   #full-stars-example-two {
+  
+    /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+    .rating-group {
+      display: inline-flex;
+    }
+    
+    /* make hover effect work properly in IE */
+    .rating__icon {
+      pointer-events: none;
+    }
+    
+    /* hide radio inputs */
+    .rating__input {
+     position: absolute !important;
+     left: -9999px !important;
+    }
+    
+    /* hide 'none' input from screenreaders */
+    .rating__input--none {
+      display: none
+    }
+  
+    /* set icon padding and size */
+    .rating__label {
+      cursor: pointer;
+      padding: 0 0.1em;
+      font-size: 2rem;
+    }
+    
+    /* set default star color */
+    .rating__icon--star {
+      color: orange;
+    }
+  
+    /* if any input is checked, make its following siblings grey */
+    .rating__input:checked ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+    
+    /* make all stars orange on rating group hover */
+    .rating-group:hover .rating__label .rating__icon--star {
+      color: orange;
+    }
+  
+    /* make hovered input's following siblings grey on hover */
+    .rating__input:hover ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+  }
+  
+/*   
+  body {
+    padding: 1rem;
+    text-align: center;
+  } */
+  .h-80{
+    height: 35vh;
+    border-radius: 0.8rem;
+
+  }
+   .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .products1{
+    margin:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .products2{
+    width:18.8rem;
+  }
+  
+  .products4{
+    width:18.8rem;
+  }
+  .products5{
+    width:18.8rem;
+  }
+  .products6{
+    width:18.8rem;
+  }
